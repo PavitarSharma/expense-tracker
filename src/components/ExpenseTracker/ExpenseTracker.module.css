@@ -1,0 +1,65 @@
+.expense_tracker {
+  background-color: #626262;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 24px 20px;
+  margin-top: 0.6rem;
+}
+
+.expense_tracker {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.expense_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 181px;
+}
+
+.expense_box p {
+  font-size: 30px;
+}
+
+.expense_box p span {
+  font-weight: 700;
+  color: #9dff5b;
+}
+
+.expense_box .expense {
+  font-weight: 700;
+  color: #f4bb4a;
+}
+
+.wallet_btn,
+.expenses_btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.wallet_btn {
+  background: linear-gradient(90deg, #b5dc52 0%, #89e148 100%);
+}
+.expenses_btn {
+  background: linear-gradient(90deg, #ff9595 0%, #ff4747 80%, #ff3838 100%);
+}
+
+.expense_box .balance {
+  color: #F4BB4A;
+}
+
+@media (max-width: 968px) {
+  .expense_tracker {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 2rem;
+  
+  }
+}
+

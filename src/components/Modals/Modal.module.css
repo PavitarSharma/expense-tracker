@@ -1,0 +1,49 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff77;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.container {
+  background-color: #efefef;
+  max-width: 538px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 20px;
+  color: black;
+}
+
+.addExpense_form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem 1rem;
+}
+
+.addBalance {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem 1rem;
+}
+
+@media (max-width: 738px) {
+  .addExpense_form {
+    grid-template-columns: 1fr;
+  }
+
+  .addBalance {
+    grid-template-columns: 1fr;
+  }
+}

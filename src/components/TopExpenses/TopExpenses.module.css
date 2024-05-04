@@ -1,0 +1,41 @@
+.top_expenses {
+  width: 417px;
+  height: 345px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top_expenses .expenses {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-block: 1rem;
+}
+
+.top_expenses .expenses p {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.progress_container {
+  width: 100%;
+  height: 21.73px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid #8784d240;
+}
+
+.progress {
+  height: 100%;
+  background-color: #8784d2;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+@media (max-width: 968px) {
+  .top_expenses {
+    width: 100%;
+  }
+}

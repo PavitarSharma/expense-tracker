@@ -1,0 +1,21 @@
+.input {
+    width: 100%;
+    background-color: #FBFBFB;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    height: 51px;
+    border-radius: 15px;
+    padding: 12px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.input::placeholder {
+    font-size: 16px;
+    color: #919191;
+}
+
+.input[type="date"]::placeholder {
+    color: #919191;
+}
+
