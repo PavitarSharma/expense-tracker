@@ -14,8 +14,7 @@
 
 ```bash
 git clone https://github.com/PavitarSharma/expense-tracker.git
-cd .expense-tracker
-
+cd expense-tracker
 yarn
 yarn run dev
 ```
