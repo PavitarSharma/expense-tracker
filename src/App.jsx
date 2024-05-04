@@ -25,10 +25,6 @@ const App = () => {
         <TopExpenses />
       </div>
     </div>
-
-    <pre>
-      <code>A</code>
-    </pre>
     </>
   )
 }
